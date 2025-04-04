@@ -30,8 +30,8 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@mehrapackersandmovers.com', 'Praveen Cargo Packers And Movers '); 
-$mail->addReplyTo('info@mehrapackersandmovers.com', 'Test Email'); 
+$mail->setFrom('info@mapplelogisticspackers.in', 'Mapple Logistics Packers and Movers '); 
+$mail->addReplyTo('info@mapplelogisticspackers.in', 'Test Email'); 
  
 // Add a recipient 
 $mail->addAddress('rohitpancholi14510@gmail.com'); 
@@ -57,7 +57,7 @@ $mailContent = '
     <p>Service :'.$service.'</p>
     <p>Message :'.$msg.'</p> 
     <p>Thanks and Regards</p>  
-    <p>Praveen Cargo Packers And Movers </p>';  
+    <p>Mapple Logistics Packers and Movers </p>';  
 // $mailContent = "Name : ".$name."\n"."Subject : ".$subject."\n"."Email : ".$email."\n"."Mbile : ".$mobile."\n"."Message :".$message; 
 $mail->Body = $mailContent; 
 $mail->headers  = "From: Sender Name <standupstartups1@gmail.com>" . "\r\n";
@@ -68,7 +68,7 @@ $mail->headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 if(!$mail->send()){ ?>
     <script>
     alert("Message could not be sent");
-    window.location.href="https://mehrapackersandmovers.com/thanks.html";
+    window.location.href="http://mapplelogisticspackers.in/thanks.html";
     </script>
     // 
     <?php
@@ -80,7 +80,7 @@ if(!$mail->send()){ ?>
              
             //   if( $_GET['status'] == 'success') {
             //      alert("Mail Send Successfully");
-                 window.location.href="https://mehrapackersandmovers.com/thanks.html";
+                 window.location.href="http://mapplelogisticspackers.in/thanks.html";
             //   }
             //   else{
             //       echo 'alert("no good");';
